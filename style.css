@@ -1,0 +1,35 @@
+/* 시작 -> 대기 -> 클릭 */
+
+#_title {
+    text-align: center;
+}
+
+
+
+
+
+#screen {
+    font-size: xx-large;
+
+    width: 100%;
+    height: 500px;
+
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+
+    user-select: none;
+}
+
+#screen.start {
+    background-color: blue;
+}
+
+#screen.wait {
+    background-color: red;
+}
+
+#screen.click {
+    background-color: green;
+    
+}
